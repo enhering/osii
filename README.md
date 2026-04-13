@@ -18,7 +18,7 @@ This is not a technical problem. The physics is understood. The manufacturing me
 
 For most of history, building precision scientific instruments required either expensive proprietary tooling or access to a well-equipped machine shop. That has changed.
 
-Parametric CAD tools like OpenSCAD are free and run on any computer. 3D printing has made complex geometries accessible to anyone. Affordable CNC services and open PCB fabrication houses mean that a design shared online can be physically built almost anywhere in the world within days. The infrastructure for open hardware has quietly matured. What was impractical a decade ago is now straightforward.
+Parametric CAD tools like FreeCAD are free and run on any computer. 3D printing has made complex geometries accessible to anyone. Affordable CNC services and open PCB fabrication houses mean that a design shared online can be physically built almost anywhere in the world within days. The infrastructure for open hardware has quietly matured. What was impractical a decade ago is now straightforward.
 
 The moment to build this exists. OSII is the attempt to use it.
 
@@ -32,7 +32,7 @@ The model is borrowed from open-source software: release everything — CAD file
 
 Every OSII project ships with:
 
-- **Full documentation** — CAD files (OpenSCAD), BOM, fabrication notes, supplier lists, and a contributor log.
+- **Full documentation** — CAD files (FreeCAD), BOM, fabrication notes, supplier lists, and a contributor log.
 - **Stable interfaces** — Core module interfaces are versioned so that components from different contributors remain interchangeable.
 - **A free license** — GNU GPL v3. Download, build, modify, redistribute. No strings.
 - **Version control** — Everything lives in public repositories. History is preserved. Contributions are traceable.
@@ -59,7 +59,7 @@ The framework supports any kind of instrumentation. Low-temperature is where we 
 
 ## Technology
 
-- **CAD:** [OpenSCAD](https://openscad.org/) — parametric, scriptable, version-control friendly. No proprietary formats.
+- **CAD:** [FreeCAD](https://freecad.org/) — parametric, scriptable, version-control friendly. No proprietary formats.
 - **Version control:** GitHub, GitLab, or Bitbucket.
 - **Everything else:** Open standards throughout. No one should be locked out by software they can't afford.
 
