@@ -1,55 +1,90 @@
 # Open Scientific Instrumentation Initiative (OSII)
 
-## Purpose: 
+> *Science should not be limited by the cost of its tools.*
 
-The purpose of this initiative is to develop scientific instrumentation that can be freely built by anyone, using resources available virtually everywhere and following contributions from an open community.
+---
 
-## License: 
+A commercial dilution refrigerator costs upward of $500,000. A precision spectrometer, tens of thousands. A motorized positioning stage, thousands — for a component that moves a sample a few millimeters.
 
-A license must be developed, based on GNU public license V3. The projects should be made publicly available through that license.
+These are not exotic items. They are the everyday tools of experimental science. And for most researchers in the world — at smaller universities, in developing countries, in independent labs — they are simply out of reach.
 
-## Documentation: 
+This is not a technical problem. The physics is understood. The manufacturing methods exist. The barrier is economic, and it is artificial.
 
-Instrumentation documentation should be available on a public repository, managed by a version control system like GitHub, GitLab or BitBucket. It should include 3D information on an open format, description of methods of fabrication, comments from factories, bills of materials, etc. 
+**OSII exists to remove it.**
 
-## Community: 
+---
 
-Projects must be downloadable by anyone. 
-Anyone can join the community. 
-Contributors could communicate through many means, but a official forum should be hosted somewhere online.
+## Why Now
 
-## Contributions: 
+For most of history, building precision scientific instruments required either expensive proprietary tooling or access to a well-equipped machine shop. That has changed.
 
-Contributions could be submitted to the community as suggestions, requirements or as new branches of the project, like any open source software project. Contributors should keep in mind that more and new functionality can be aggregated to the project at any time.
+Parametric CAD tools like OpenSCAD are free and run on any computer. 3D printing has made complex geometries accessible to anyone. Affordable CNC services and open PCB fabrication houses mean that a design shared online can be physically built almost anywhere in the world within days. The infrastructure for open hardware has quietly matured. What was impractical a decade ago is now straightforward.
 
-## About the projects: 
+The moment to build this exists. OSII is the attempt to use it.
 
-Three dimensional CAD projects should be made using a software that can be easily monitored for modifications by a version control system. Please consider using OpenSCAD and use the forum to share your ideas.
- 
-## The projects should be developed with modularity and scalability in mind. Modules should, whenever possible, be interchangeable.
+---
 
-Each project should be accompanied by CAD files, bill of materials, list of companies that can execute its parts, list of places to buy raw materials, list of contributors etc. The directory structure should follow some very basic template to be developed.
+## What We Do
 
-Some basic structural elements, after accepted, should never be changed for that version or all the already developed modules would have to be changed too.
+We design, document, and share scientific instrumentation that anyone can build.
 
-## Project branches: 
+The model is borrowed from open-source software: release everything — CAD files, bills of materials, fabrication notes, supplier lists — under a free license. Let anyone build it, improve it, and share it back. The open-source movement democratized computing. We aim to do the same for the lab bench.
 
-New branches can be created following the version control options. Every contributor can download a project, create its own branch and then, maybe, commit it to the main project.
+Every OSII project ships with:
 
-## Interfaces: 
+- **Full documentation** — CAD files (OpenSCAD), BOM, fabrication notes, supplier lists, and a contributor log.
+- **Stable interfaces** — Core module interfaces are versioned so that components from different contributors remain interchangeable.
+- **A free license** — GNU GPL v3. Download, build, modify, redistribute. No strings.
+- **Version control** — Everything lives in public repositories. History is preserved. Contributions are traceable.
 
-Interfaces should be well thought and developed with scalability, interchangeability and modularity in mind.
+---
 
-## Deadlines: 
+## Projects
 
-Deadlines could be useful, but if something is not converging, ending a branch and starting a new one with basic element modification should be possible and encouraged.
+| Project | Status | Description |
+|---|---|---|
+| Low-temperature cryostat | 🔧 In development | Modular cryostat platform for millikelvin experiments |
 
-## Seeds: 
+*More projects will be added as the community grows. Have a design to contribute? Open an issue or start a discussion.*
 
-A good starting point would be a low temperature equipment, but the main initiative should be able to handle arbitrary seeds.
+---
 
-## Creator: 
-  Eduardo N Hering, physicist, PhD. 
-  enhering@gmail.com
+## Where We Start
 
-# Please share.
+The first seed project targets **low-temperature equipment** — cryostats, thermal stages, and related hardware. This is one of the most expensive corners of experimental physics, and one where open designs could have the greatest impact.
+
+The framework supports any kind of instrumentation. Low-temperature is where we start. It won't be where we stop.
+
+---
+
+## Technology
+
+- **CAD:** [OpenSCAD](https://openscad.org/) — parametric, scriptable, version-control friendly. No proprietary formats.
+- **Version control:** GitHub, GitLab, or Bitbucket.
+- **Everything else:** Open standards throughout. No one should be locked out by software they can't afford.
+
+---
+
+## How to Contribute
+
+1. Clone a project repository.
+2. Build it. Improve it. Branch it.
+3. Share your changes back.
+4. Talk to the community on the forum.
+
+Sometimes good engineering means closing a branch and starting fresh with better fundamentals. That's not failure — that's how the work moves forward.
+
+---
+
+## License
+
+GNU General Public License v3. See `LICENSE`.
+
+## Creator
+
+Eduardo N. Hering — physicist, PhD.
+enhering@gmail.com
+
+---
+
+*If this resonates with you, share it. The more people who know this exists, the faster it becomes real.*
